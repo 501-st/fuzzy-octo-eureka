@@ -1,0 +1,17 @@
+table{
+    border: 4px solid black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+table tr td{
+    border: 1px solid black;
+}
+img{
+    width: 90px;
+    border-radius: 50px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}

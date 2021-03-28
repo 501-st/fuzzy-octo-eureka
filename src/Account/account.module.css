@@ -1,0 +1,19 @@
+.sidebar{
+    width:16%;
+    background-color: darkseagreen;
+    min-height: 100%;
+    position: absolute;
+}
+.sign{
+    margin-bottom: 10px;
+    list-style-type: none;
+    text-align: left;
+    font-size: 30px;
+}
+.textarea{
+    margin-left: 20%;
+}
+.button{
+    margin-left: 20%;
+}
+

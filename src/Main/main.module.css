@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+
+    grid-template-areas:
+"first second fourth"
+"first second fifth"
+"first third fifth";
+
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+
+}
+.common{
+    border: 3px solid black;
+    text-align: center;
+}
+.first {
+    grid-area: first;
+}
+.second {
+    grid-area: second;
+}
+.third{
+    grid-area: third;
+}
+.fourth{
+    grid-area: fourth;
+}
+.fifth {
+    grid-area: fifth;
+}
+.img{
+    margin-top:30px;
+    width: 500px;
+}
