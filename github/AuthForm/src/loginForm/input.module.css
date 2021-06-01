@@ -1,0 +1,45 @@
+.input{
+    margin-bottom: 20px;
+    background: rgb(211, 211, 211);
+    height:30px;
+    border-radius: 7px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-left:20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button{
+    background: rgb(255, 165, 0);
+    width: 100%;
+    border-radius: 10px;
+    font-size: 30px;
+    color:white;
+    padding: 7px;
+    cursor:pointer;
+}
+.signIn{
+    margin: 30px 120px;
+    color:white;
+}
+
+.label{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.mainWindow{
+    background: black;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 250%;
+    font-weight: bold;
+    color: rgb(176, 196, 222);
+    width: 30%;
+    position: absolute;
+    left: 31%;
+    top: 23%;
+}
